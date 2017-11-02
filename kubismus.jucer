@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="iuNCzW" name="Kubismus" projectType="guiapp" version="0.1.1"
+              bundleIdentifier="com.adzialocha.kubismus" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.4" companyName="Andreas Dzialocha" companyWebsite="https://www.andreasdzialocha.com"
+              companyEmail="kontakt@andreasdzialocha.com">
+  <MAINGROUP id="qMofmT" name="Kubismus">
+    <GROUP id="{FC9B1B88-E379-C81F-F343-63C3A384C3FE}" name="Resources">
+      <FILE id="elryPQ" name="kubismus-icon.png" compile="0" resource="1"
+            file="kubismus-icon.png"/>
+    </GROUP>
+    <GROUP id="{0A6FD5ED-1826-0201-2605-ADBB4802C04D}" name="Source">
+      <GROUP id="{0BABD300-A96A-ADDF-65BF-023FEC6AE0A7}" name="io">
+        <FILE id="dwzm7b" name="ProjectDocument.h" compile="0" resource="0"
+              file="Source/ProjectDocument.h"/>
+      </GROUP>
+      <GROUP id="{49F722CB-E6B4-6923-5081-B7B46AD83A00}" name="session">
+        <FILE id="cRydsd" name="DataInterface.h" compile="0" resource="0" file="Source/DataInterface.h"/>
+        <FILE id="q1BZtz" name="Session.h" compile="0" resource="0" file="Source/Session.h"/>
+      </GROUP>
+      <GROUP id="{F185BF4C-5CD6-239A-CC05-02934FCFBC8A}" name="properties">
+        <FILE id="H7Mg1v" name="ChannelElementProperties.h" compile="0" resource="0"
+              file="Source/ChannelElementProperties.h"/>
+        <FILE id="T18wlR" name="EditableProperties.h" compile="0" resource="0"
+              file="Source/EditableProperties.h"/>
+        <FILE id="vJKIUi" name="ElementOSCProperties.h" compile="0" resource="0"
+              file="Source/ElementOSCProperties.h"/>
+        <FILE id="vGy1Fh" name="ElementProperties.h" compile="0" resource="0"
+              file="Source/ElementProperties.h"/>
+        <FILE id="FR9RDc" name="ElementTimeProperties.h" compile="0" resource="0"
+              file="Source/ElementTimeProperties.h"/>
+        <FILE id="DGi8zv" name="OSCProperties.h" compile="0" resource="0" file="Source/OSCProperties.h"/>
+        <FILE id="YTIcED" name="VirtualTimeProperties.h" compile="0" resource="0"
+              file="Source/VirtualTimeProperties.h"/>
+      </GROUP>
+      <GROUP id="{AD1666F6-32FE-5A84-5E6C-A561E114C115}" name="ui">
+        <FILE id="OMflrw" name="PreferencesWindow.cpp" compile="1" resource="0"
+              file="Source/PreferencesWindow.cpp"/>
+        <FILE id="bU1Cup" name="PreferencesWindow.h" compile="0" resource="0"
+              file="Source/PreferencesWindow.h"/>
+        <FILE id="iseZbw" name="ConnectionToggleButtonComponent.h" compile="0"
+              resource="0" file="Source/ConnectionToggleButtonComponent.h"/>
+        <FILE id="qcjiSa" name="CollapseButtonComponent.h" compile="0" resource="0"
+              file="Source/CollapseButtonComponent.h"/>
+        <FILE id="pJpwFZ" name="CueComponent.h" compile="0" resource="0" file="Source/CueComponent.h"/>
+        <FILE id="PEFSFg" name="ScannerComponent.h" compile="0" resource="0"
+              file="Source/ScannerComponent.h"/>
+        <FILE id="yf0OlT" name="ScannerManagerComponent.cpp" compile="1" resource="0"
+              file="Source/ScannerManagerComponent.cpp"/>
+        <FILE id="HJZCxI" name="ScannerManagerComponent.h" compile="0" resource="0"
+              file="Source/ScannerManagerComponent.h"/>
+        <FILE id="v7h90Y" name="ViewportListener.cpp" compile="1" resource="0"
+              file="Source/ViewportListener.cpp"/>
+        <FILE id="fNYSZm" name="ViewportListener.h" compile="0" resource="0"
+              file="Source/ViewportListener.h"/>
+        <FILE id="h6szF7" name="ExtendedViewport.cpp" compile="1" resource="0"
+              file="Source/ExtendedViewport.cpp"/>
+        <FILE id="YPs05w" name="ExtendedViewport.h" compile="0" resource="0"
+              file="Source/ExtendedViewport.h"/>
+        <FILE id="uE4vms" name="TimelineComponent.cpp" compile="1" resource="0"
+              file="Source/TimelineComponent.cpp"/>
+        <FILE id="P0iac3" name="TimelineComponent.h" compile="0" resource="0"
+              file="Source/TimelineComponent.h"/>
+        <FILE id="C5QSMb" name="SidebarComponent.cpp" compile="1" resource="0"
+              file="Source/SidebarComponent.cpp"/>
+        <FILE id="MTG23Q" name="SidebarComponent.h" compile="0" resource="0"
+              file="Source/SidebarComponent.h"/>
+        <FILE id="D2Yx5Z" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/MainComponent.cpp"/>
+        <FILE id="CWr2cB" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      </GROUP>
+      <GROUP id="{9CBF63F8-5552-4AE1-19EE-49A360B283B3}" name="utility">
+        <FILE id="A9RMIT" name="HorizontalComponentBoundsConstrainer.cpp" compile="1"
+              resource="0" file="Source/HorizontalComponentBoundsConstrainer.cpp"/>
+        <FILE id="mhRrBl" name="HorizontalComponentBoundsConstrainer.h" compile="0"
+              resource="0" file="Source/HorizontalComponentBoundsConstrainer.h"/>
+        <FILE id="bDnksl" name="LookAndFeelCustom.cpp" compile="1" resource="0"
+              file="Source/LookAndFeelCustom.cpp"/>
+        <FILE id="rraJcS" name="LookAndFeelCustom.h" compile="0" resource="0"
+              file="Source/LookAndFeelCustom.h"/>
+      </GROUP>
+      <GROUP id="{9C66A077-EA75-23D6-5D7F-D6415DDEFE95}" name="editors">
+        <FILE id="xcWQiM" name="BinaryStretchComponent.cpp" compile="1" resource="0"
+              file="Source/BinaryStretchComponent.cpp"/>
+        <FILE id="HzPPXK" name="BinaryStretchComponent.h" compile="0" resource="0"
+              file="Source/BinaryStretchComponent.h"/>
+        <FILE id="ojuByb" name="EditorComponent.cpp" compile="1" resource="0"
+              file="Source/EditorComponent.cpp"/>
+        <FILE id="PRYhYm" name="EditorComponent.h" compile="0" resource="0"
+              file="Source/EditorComponent.h"/>
+        <FILE id="NgkUP5" name="PointEditor.cpp" compile="1" resource="0" file="Source/PointEditor.cpp"/>
+        <FILE id="iedmjb" name="PointEditor.h" compile="0" resource="0" file="Source/PointEditor.h"/>
+        <FILE id="XAIfRl" name="PointEditorComponent.cpp" compile="1" resource="0"
+              file="Source/PointEditorComponent.cpp"/>
+        <FILE id="A77aCE" name="PointEditorComponent.h" compile="0" resource="0"
+              file="Source/PointEditorComponent.h"/>
+        <FILE id="YH3juF" name="RandomEditorComponent.cpp" compile="1" resource="0"
+              file="Source/RandomEditorComponent.cpp"/>
+        <FILE id="wiwsUA" name="RandomEditorComponent.h" compile="0" resource="0"
+              file="Source/RandomEditorComponent.h"/>
+        <FILE id="tG7Ouc" name="StepEditor.cpp" compile="1" resource="0" file="Source/StepEditor.cpp"/>
+        <FILE id="f5fLc0" name="StepEditor.h" compile="0" resource="0" file="Source/StepEditor.h"/>
+      </GROUP>
+      <GROUP id="{AECB3B32-DF60-EFFD-2E16-3101A0CB022D}" name="channels">
+        <FILE id="Ct1W4U" name="ElementListener.cpp" compile="1" resource="0"
+              file="Source/ElementListener.cpp"/>
+        <FILE id="v5eRd6" name="ElementListener.h" compile="0" resource="0"
+              file="Source/ElementListener.h"/>
+        <FILE id="oKMKs7" name="ChannelListener.cpp" compile="1" resource="0"
+              file="Source/ChannelListener.cpp"/>
+        <FILE id="wcOhU7" name="ChannelViewComponent.h" compile="0" resource="0"
+              file="Source/ChannelViewComponent.h"/>
+        <FILE id="YWVfz2" name="ChannelComponent.cpp" compile="1" resource="0"
+              file="Source/ChannelComponent.cpp"/>
+        <FILE id="Np9EIa" name="ChannelComponent.h" compile="0" resource="0"
+              file="Source/ChannelComponent.h"/>
+        <FILE id="i8Kkth" name="ChannelViewComponent.cpp" compile="1" resource="0"
+              file="Source/ChannelViewComponent.cpp"/>
+        <FILE id="M4U28B" name="ChannelListener.h" compile="0" resource="0"
+              file="Source/ChannelListener.h"/>
+        <FILE id="pXCEu7" name="ChannelElementComponent.cpp" compile="1" resource="0"
+              file="Source/ChannelElementComponent.cpp"/>
+        <FILE id="pRCb7D" name="ChannelElementComponent.h" compile="0" resource="0"
+              file="Source/ChannelElementComponent.h"/>
+      </GROUP>
+      <FILE id="hDWwQv" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" smallIcon="elryPQ" bigIcon="elryPQ"
+               documentExtensions=".miau">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="kubismus"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="kubismus"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

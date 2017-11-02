@@ -1,0 +1,21 @@
+          __   __          __
+ /__//  // _)/(  /|/| /  /(
+/  )(__//(_)(__)/   |(__/__)
+
+OPEN ISSUES / BUGS
+================================================
+
+* Remembered last scanner position not working on drag
+
+FEATURE WISHLIST
+================================================
+
+* Connection between Elements
+* Improve Time-Stretch Function (Performance / Resolution)
+* Copy & Paste Command
+* Remove Command (Channel / Element)
+
+MINOR CHANGES
+================================================
+
+* Own Document for global consts
